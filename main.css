@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rose-la{
+    transition: .5s;
+}
+
+.text-hover{
+    transition: .5s;
+    padding-bottom: 5px;
+}
+
+.text-hover:hover{
+    border-bottom: 3px solid blue;
+    transition: .5s;
+    color: blue !important;
+}
+
+.rose-la:hover{
+    border-left: 10px solid blue;
+    transition: .5s;
+    background-color: rgba(0, 0, 255, 0.1);
+}
